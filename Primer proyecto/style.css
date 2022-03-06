@@ -1,0 +1,189 @@
+div{
+    background-color: rgb(98, 153, 170);
+   background-image: url('img/Imagen\ fondo.png');
+    margin: 10px;
+    padding: 15px 50px 15px 400px;
+    box-shadow: 10px black;
+}
+article{
+    
+    color: rgb(11, 23, 58);
+    border: 5px;
+    border-style: inset;
+    border-radius: 5px;
+}
+
+h1{
+    color: #09263a;
+    border-radius:22px;
+    background-color: #3ECCDF;
+    padding: 10px 60px 10px 400px;
+}
+h2{
+
+    font-size: 30px;
+    color: #210c22;
+    
+}
+.texto{
+    background-color: lightcoral;
+    font-family: 'Raleway', sans-serif;
+    max-width: 500px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+ 
+
+}
+.tex2{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(235, 191, 191, 0.664);
+    max-width: 800px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+#subtitulo2{
+    background-color:rgb(98, 153, 170);
+    max-width: 800px;
+    margin: 15px;
+    padding: 10px ;
+   
+     text-align:center;
+ }
+body{
+      background-color: #030B27;
+        width:1000px;
+        margin:0px auto;
+     
+}
+#imagen{
+    border: 10px;
+    box-shadow: 0px 0px 30px rgb(160, 252, 255);
+}
+#imagen2{
+    border: 10px;
+    
+    background-position:center;
+    margin: 10px;
+    padding: 5px 280px 5px 400px;
+    
+
+}
+ #subtitulo{
+    background-color:rgb(98, 153, 170);
+    max-width: 500px;
+    margin: 15px;
+    padding: 10px;
+   
+     text-align:center; 
+   
+ }
+ #textsub{
+
+    background-color:rgb(98, 153, 170);
+    max-width: 800px;
+    margin: 15px;
+    padding: 10px;
+   
+     text-align:center; 
+ }
+
+.descargar{
+    background-image: url('img/BOTON\ DESCARGAR.png');
+    display: block;
+	height: 58px;
+	width: 165px;
+	text-indent: -2000px;
+    cursor: pointer;
+}
+.descargar:hover{
+    background-image: url('img/BOTON\ DESCARGAR2\ selec.png');
+    display: block;
+	height: 58px;
+	width: 165px;
+	text-indent: -2000px;
+    cursor: pointer;
+}
+
+.descargar:active{
+    background-image: url('img/BOTON\ DESCARGAR2.png');
+    display: block;
+	height: 58px;
+	width: 165px;
+	text-indent: -2000px;
+    cursor: pointer;
+}
+.siguiente{
+    background-image: url('img/Flecha\ siguiente.png');
+    display: block;
+    height: 80px;
+    width: 165px;
+    text-indent: -2000px;
+    cursor: pointer;
+
+   position: absolute;
+   right: 175px;
+   
+   
+    
+}
+.siguiente:hover{
+    background-image: url('img/Flecha\ sig.png');
+    display: block;
+    height: 80px;
+    width: 165px;
+    text-indent: -2000px;
+    cursor: pointer;
+
+   position: absolute;
+   right: 175px;
+   
+   
+    
+}
+.siguiente:active{
+    background-image: url('img/Flecha\ sig\ seleccionar.png');
+    display: block;
+    height: 80px;
+    width: 165px;
+    text-indent: -2000px;
+    cursor: pointer;
+
+   position: absolute;
+   right: 175px;
+   
+   
+    
+}
+
+.volver{
+    background-image: url('img/flecha_volver.png');
+    display: block;
+    height: 80px;
+    width: 165px;
+    text-indent: -1000px;
+    cursor: pointer;
+   right: 405px;
+}
+.volver:hover{
+    background-image: url('img/flecha_vol.png');
+    display: block;
+    height: 80px;
+    width: 165px;
+    text-indent: -1000px;
+    cursor: pointer;
+   right: 405px;
+}
+.volver:active{
+    background-image: url('img/flecha_volver_sec.png');
+    display: block;
+    height: 80px;
+    width: 165px;
+    text-indent: -1000px;
+    cursor: pointer;
+   right: 405px;
+}
