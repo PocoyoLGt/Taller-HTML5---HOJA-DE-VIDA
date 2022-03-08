@@ -10,9 +10,12 @@ h1{
     color: #ffffff;
     border-radius:22px;
     text-align: center;
-    background-color: #3C5D79;
+    
     padding: 10px 20px 10px 50px;
     max-width: 900px ;
+}
+.fondotitulo{
+   background-color: #3C5D79; 
 }
 h2{
     background-color: coral;
@@ -21,6 +24,10 @@ h2{
     margin: 15px;
     padding: 10px;
     
+}
+.subfondo{
+    background-color: coral;
+
 }
 article{
     background-color: #43d2e865;
@@ -47,6 +54,7 @@ p{
 	width: 165px;
 	text-indent: -2000px;
     cursor: pointer;
+    margin: 0px auto;
    
 }
 .descargar:hover{
@@ -56,6 +64,7 @@ p{
 	width: 165px;
 	text-indent: -2000px;
     cursor: pointer;
+    margin: 0px auto;
 }
 
 
@@ -66,6 +75,7 @@ p{
 	width: 165px;
 	text-indent: -2000px;
     cursor: pointer;
+    margin: 0px auto;
 }
 .siguiente{
     background-image: url('img/Flecha\ siguiente.png');
@@ -136,4 +146,51 @@ p{
     text-indent: -1000px;
     cursor: pointer;
    right: 405px;
+}
+
+#btnEjecutar{
+    color: coral;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#btnEjecutar:hover{
+    color: coral;
+    font-size: 18px;
+    font-family: sans-serif;
+    box-shadow: 0px 0px 30px rgb(183, 157, 241);
+
+}
+#slcOpciones{
+    color: rgb(7, 8, 77);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.volvermenu{
+    background-image: url('img/vol\ pag1.png');
+    display: block;
+    height: 80px;
+    width: 165px;
+    text-indent: -1000px;
+    cursor: pointer;
+   margin: 20px auto;
+}
+.volvermenu:hover{
+    background-image: url('img/vol\ pag1.png');
+    display: block;
+    height: 80px;
+    width: 165px;
+    text-indent: -1000px;
+    cursor: pointer;
+   margin: 20px auto;
+   box-shadow: 0px 0px 30px rgb(255, 243, 80);
+}
+.volvermenu:active{
+    background-image: url('img/vol\ pag1.png');
+    display: block;
+    height: 80px;
+    width: 165px;
+    text-indent: -1000px;
+    cursor: pointer;
+   margin: 20px auto;
+   box-shadow: 0px 0px 30px rgb(2, 0, 22);
 }
